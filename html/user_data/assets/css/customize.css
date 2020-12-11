@@ -1,0 +1,11 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+/*フッターの背景色変更*/
+.ec-footerRole{
+    background : #535151;
+    border-top: none;
+}
+/*フッターのタイトルフォント変更*/
+body{
+font-family:'Philosopher', 'Noto Serif JP',  sans-serif;
+}

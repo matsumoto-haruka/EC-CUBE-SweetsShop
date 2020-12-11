@@ -19,6 +19,7 @@ file that was distributed with this source code.
         }
 
         .slick-dots {
+            display :none;
             position: absolute;
             bottom: -45px;
             display: block;
@@ -106,11 +107,9 @@ file that was distributed with this source code.
 {% block main %}
     <div class="ec-sliderRole">
         <div class="main_visual">
-            <div class="item slick-slide"><img src="{{ asset('assets/img/top/img_hero_pc01.jpg') }}"></div>
-            <div class="item slick-slide"><img src="{{ asset('assets/img/top/img_hero_pc02.jpg') }}"></div>
-            <div class="item slick-slide"><img src="{{ asset('assets/img/top/img_hero_pc03.jpg') }}"></div>
-                        <div class="item slick-slide"><img src="{{ asset('assets/img/top/img_hero_nr.jpg',"user_data") }}"></div>
-            <div class="item slick-slide"><img src="{{ '/html/user_data/assets/img/top/img_hero_nr.jpg'}}"></div>
+            <div class="item slick-slide"><img src="{{ asset('assets/img/header/togitsuFTHG2329_TP_V (2).jpg','user_data') }}"></div>
+            <div class="item slick-slide"><img src="{{ asset('assets/img/top/cake-2610754_1920 (2).jpg','user_data') }}"></div>
+            <div class="item slick-slide"><img src="{{ asset('assets/img/header/3763080_m (2).jpg','user_data') }}"></div>
         </div>
     </div>
 {% endblock %}
